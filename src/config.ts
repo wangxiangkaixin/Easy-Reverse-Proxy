@@ -11,4 +11,10 @@ export interface Proxy {
 }
 
 // 代理
-export let PROXYS = [];
+export let PROXYS = [
+    {
+        domain: "www.example2.com",
+        url: "https://youtube.com/",
+        enable: true
+    }
+];
