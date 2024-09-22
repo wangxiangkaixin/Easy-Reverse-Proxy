@@ -13,7 +13,7 @@ export interface Proxy {
 // 代理
 export let PROXYS = [
     {
-        domain: "www.example2.com",
+        domain: "easy-reverse-proxy.vercel.app",
         url: "https://youtube.com/",
         enable: true
     }
